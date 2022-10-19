@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FlightHub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Poppins:400,700,900");
+      body,
+      html {
+        background-color: rgb(71, 157, 197);
+        padding: 0;
+        margin: 0;
+        width: 100%;
+      }
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+      .header {
+        position: absolute;
+        top: 35%;
+        left: 35%;
+
+        font-size: xx-large;
+      }
+      h1 {
+        color: white;
+        margin-top: 0;
+        margin-bottom: 0px;
+        font-family: "Luckiest Guy", cursive;
+        letter-spacing: 5px;
+      }
+      input {
+        display: inline;
+      }
+      #search {
+        width: 272px;
+        padding: 10px;
+        border-radius: 8px;
+        border-width: 0;
+      }
+      #button {
+        background-color: rgb(64, 255, 150);
+        padding: 9px 30px 9px 30px;
+        border-width: 0;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="height: 100vh">
+      <div class="header">
+        <h1>FLIGHTHUB</h1>
+        <input
+          class="search"
+          type="text"
+          name="search"
+          id="search"
+          placeholder="WHICH FLIGHT DO U WANT?"
+        />
+        <input
+          class="button"
+          type="submit"
+          id="button"
+          name="submit"
+          value="Search"
+        />
+      </div>
+    </div>
+  </body>
+</html>
