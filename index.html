@@ -8,68 +8,68 @@
       href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Patrick+Hand&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/index.css" />
     <style>
       @import url("https://fonts.googleapis.com/css?family=Poppins:400,700,900");
-      body,
-      html {
-        background-color: rgb(71, 157, 197);
-        padding: 0;
-        margin: 0;
-        width: 100%;
-      }
-      * {
-        font-family: "Poppins", sans-serif;
-      }
-      .header {
-        position: absolute;
-        top: 35%;
-        left: 35%;
-
-        font-size: xx-large;
-      }
-      h1 {
-        color: white;
-        margin-top: 0;
-        margin-bottom: 0px;
-        font-family: "Luckiest Guy", cursive;
-        letter-spacing: 5px;
-      }
-      input {
-        display: inline;
-      }
-      #search {
-        width: 272px;
-        padding: 10px;
-        border-radius: 8px;
-        border-width: 0;
-      }
-      #button {
-        background-color: rgb(64, 255, 150);
-        padding: 9px 30px 9px 30px;
-        border-width: 0;
-        border-radius: 8px;
-      }
     </style>
   </head>
   <body>
-    <div style="height: 100vh">
-      <div class="header">
-        <h1>FLIGHTHUB</h1>
-        <input
-          class="search"
-          type="text"
-          name="search"
-          id="search"
-          placeholder="WHICH FLIGHT DO U WANT?"
-        />
-        <input
-          class="button"
-          type="submit"
-          id="button"
-          name="submit"
-          value="Search"
-        />
-      </div>
+    <div class="container">
+      <form action="">
+        <div class="header">
+          <h1>FLIGHTHUB</h1>
+          <img src="/src/plane.png" alt="plane" width="30px" height="30px" />
+        </div>
+        <table>
+          <tr>
+            <td>
+              <label for="firstName">FIRST NAME</label>
+            </td>
+            <td>
+              <input type="text" id="firstName" name="firstName" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="lastName">LAST NAME</label>
+            </td>
+            <td>
+              <input type="text" id="lastName" name="lastName" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="address">ADDRESS</label>
+            </td>
+            <td>
+              <textarea type="text" id="address" name="address"></textarea>
+            </td>
+          </tr>
+        </table>
+      </form>
+      <table style="width: 100%; padding-top: 20px">
+        <tr>
+          <td style="text-align: right; width: 40%">
+            <input
+              style="background-color: rgb(20, 152, 51); padding: 10px"
+              type="button"
+              id="button"
+              name="button"
+              value="confirm"
+            />
+          </td>
+          <!-- <td>s</td> -->
+          <td style="text-align: left; width: 40%">
+            <input
+              style="background-color: red; padding: 10px"
+              type="reset"
+              name="reset"
+              id="reset"
+              value="cancel"
+            />
+          </td>
+        </tr>
+      </table>
     </div>
   </body>
 </html>

@@ -1,0 +1,80 @@
+body,
+html {
+  background-color: rgb(71, 157, 197);
+  padding: 0;
+  margin: 0;
+}
+* {
+  font-family: "Luckiest Guy", cursive;
+  color: white;
+  letter-spacing: 2px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+img {
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+.container {
+  width: 600px;
+  /* margin: auto; */
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+form {
+  padding: 15px;
+  background-color: rgb(20, 152, 51);
+}
+h1 {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+input {
+  padding: 5px;
+  border-radius: 7px;
+  border-width: 0;
+}
+form input {
+  padding: 5px;
+  border-radius: 7px;
+  border-width: 0;
+  width: 425px;
+}
+textarea {
+  padding: 5px;
+  border-radius: 7px;
+  width: 425px;
+}
+/* .header {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  font-size: xx-large;
+}
+h1 {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0px;
+  letter-spacing: 5px;
+} */
+/* input {
+  display: inline;
+}
+#search {
+  width: 272px;
+  padding: 10px;
+  border-radius: 8px;
+  border-width: 0;
+}
+#button {
+  background-color: rgb(64, 255, 150);
+  padding: 9px 30px 9px 30px;
+  border-width: 0;
+  border-radius: 8px;
+} */
